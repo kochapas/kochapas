@@ -1,6 +1,3 @@
-<div align="center" width="100%" height="250px" background="url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=300)" background-size="cover">
-</div>
-
 <h1> Hello Fellow < Developers/ >! <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px> </h1>
 <p align='center'>
 
@@ -9,9 +6,6 @@
 </div>
 
 <h2> About Me</h2>
-
-<img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
-
 
 - 🔭 I’m currently working on [BarcSnap](https://www.barcsnap.com)
 
