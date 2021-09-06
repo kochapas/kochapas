@@ -39,7 +39,8 @@
 <!--Figma--><a href="https://www.figma.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/></a>
 </p>
 
-<p>My languages:</p>
+<h3>My languages:</h3>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kochapas&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="kochapas" /></p>
-<p>My status:</p>
+
+<h3>My status:</h3>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=kochapas&show_icons=true&theme=tokyonight&locale=en" alt="kochapas" /></p>
