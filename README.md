@@ -40,5 +40,5 @@
 </p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kochapas&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="kochapas" /></p>
-
-<p><img align="center" style="margin-top:16px;" src="https://github-readme-stats.vercel.app/api?username=kochapas&show_icons=true&theme=tokyonight&locale=en" alt="kochapas" /></p>
+<p> </p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=kochapas&show_icons=true&theme=tokyonight&locale=en" alt="kochapas" /></p>
