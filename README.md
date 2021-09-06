@@ -42,5 +42,4 @@
 <h3 align="left">My languages:</h3>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kochapas&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="kochapas" /></p>
 
-<h3 align="left">My status:</h3>
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=kochapas&show_icons=true&theme=tokyonight&locale=en" alt="kochapas" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kochapas&show_icons=true&theme=tokyonight&locale=en" alt="kochapas" /></p>
