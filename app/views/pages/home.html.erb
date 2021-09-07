@@ -1,6 +1,6 @@
 <div id="top-page" class="container">
   <h1 class="mt-3">Welcome!</h1>
-  <div class="d-flex justify-content-between expand-char-parent">
+  <div class="d-flex justify-content-between expand-char-parent border-parent">
     <div class="w-75 overflow-hidden">
       <h2 class="d-flex">My name is...
         <em class="d-flex">Ko
@@ -14,10 +14,10 @@
     <div class="d-flex mx-3 flex-grow-1 position-relative">
       <div class="position-relative">
         <div id="main-profile-img" style="background-image:url(<%= image_path('profile_image_01.jpg')%>);"></div>
-        <div class="position-absolute w-100 border-dark border-bottom" style="bottom:0%; left:-20%;"></div>
-        <div class="position-absolute w-100 border-dark border-top" style="top:0%; right:-20%;"></div>
-        <div class="position-absolute h-100 border-dark border-left" style="top:10%; left:0%;"></div>
-        <div class="position-absolute h-100 border-dark border-right" style="top:-10%; right:0%;"></div>
+        <div id="bt-pos" class="position-absolute w-100 border-dark border-top"></div>
+        <div id="br-pos" class="position-absolute h-100 border-dark border-right"></div>
+        <div id="bb-pos" class="position-absolute w-100 border-dark border-bottom"></div>
+        <div id="bl-pos" class="position-absolute h-100 border-dark border-left"></div>
       </div>
       <div>
         <div class="square-banner-img position-absolute floating" style="background-image:url(<%= image_path('profile_image_02.jpg')%>); top:5%; right:-20%;"></div>

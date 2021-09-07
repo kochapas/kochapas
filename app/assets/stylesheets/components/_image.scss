@@ -27,3 +27,44 @@
   50%  { transform: translate(0, 8px); }
   100%   { transform: translate(0, -0px); }   
 }
+
+#bt-pos {
+  top: 0%;
+  right: -20%;
+  transition: right 0.5s;
+}
+
+.border-parent:hover #bt-pos {
+  right: 0%;
+}
+
+#br-pos {
+  top: -10%;
+  right: 0%;
+  transition: top 0.5s;
+}
+
+.border-parent:hover #br-pos {
+  top: 0%;
+}
+
+#bb-pos {
+  bottom: 0%;
+  left: -20%;
+  transition: left 0.5s;
+}
+
+.border-parent:hover #bb-pos {
+  left: 0%;
+}
+
+#bl-pos {
+  top: 10%;
+  left: 0%;
+  transition: top 0.5s;
+}
+
+.border-parent:hover #bl-pos {
+  top: 0%;
+}
+
