@@ -2,10 +2,26 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Lobster&family=Noto+Sans+JP:wght@300&display=swap');
+
 // CSS partial
 @import "pages/index";
 @import "components/index";
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+
+em { 
+  font-family: 'Kanit', sans-serif;
 }
