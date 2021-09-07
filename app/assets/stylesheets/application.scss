@@ -5,3 +5,7 @@
 // CSS partial
 @import "pages/index";
 @import "components/index";
+
+html {
+  scroll-behavior: smooth;
+}
