@@ -6,7 +6,13 @@
       <p>But they called me <span>ALLEN</span>!</p>
     </div>
     <div class="d-flex mx-3 flex-grow-1 position-relative">
-      <div id="main-profile-img" style="background-image:url(<%= image_path('profile_image_01.jpg')%>);"></div>
+      <div class="position-relative">
+        <div id="main-profile-img" style="background-image:url(<%= image_path('profile_image_01.jpg')%>);"></div>
+        <div class="position-absolute w-100 border-dark border-bottom" style="bottom:0%; left:-20%;"></div>
+        <div class="position-absolute w-100 border-dark border-top" style="top:0%; right:-20%;"></div>
+        <div class="position-absolute h-100 border-dark border-left" style="top:10%; left:0%;"></div>
+        <div class="position-absolute h-100 border-dark border-right" style="top:-10%; right:0%;"></div>
+      </div>
       <div>
         <div class="square-banner-img position-absolute floating" style="background-image:url(<%= image_path('profile_image_02.jpg')%>); top:-40px; right:0%;"></div>
         <div class="position-absolute floating text-center" style="top:50%; left:-40%;">
