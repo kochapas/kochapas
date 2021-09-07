@@ -1,0 +1,9 @@
+.expand-char {
+  max-width: 0px;
+  overflow: hidden;
+  transition: max-width 0.5s;
+}
+
+.expand-char-parent:hover .expand-char {
+  max-width: 16px;
+}
