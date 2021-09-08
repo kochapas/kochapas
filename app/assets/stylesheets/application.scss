@@ -17,11 +17,15 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Lobster', cursive;
 }
 
 
-em { 
+em, .em-text {
   font-family: 'Kanit', sans-serif;
+}
+
+.transition-color {
+  transition: background-color 0.5s;
 }

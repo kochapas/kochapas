@@ -7,3 +7,13 @@
 .expand-char-parent:hover .expand-char {
   max-width: 16px;
 }
+
+.btn-expand .btn-label {
+  max-width: 0px;
+  overflow: hidden;
+  transition: max-width 0.5s ease-in-out;
+}
+
+.btn-expand:hover .btn-label {
+  max-width: 200px;
+}
