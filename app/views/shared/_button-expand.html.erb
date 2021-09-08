@@ -1,8 +1,10 @@
-<a href="#" class="btn-expand btn btn-secondary rounded-pill">
+<div class="btn-expand btn btn-secondary rounded-pill">
   <div class="d-flex align-items-center mx-auto">
     <%= btn_icon %>
     <div class="btn-label">
-      <p class="ml-1 my-0 p-0"><%= btn_label %></p>
+      <%= raw("<a href='#{btn_link}' target='_blank' class='text-light text-decoration-none'>") if defined?(btn_link) %>
+      <p class="ml-2 my-0 p-0"><%= btn_label %></p>
+      <%= raw('</a>') if defined?(btn_link) %>
     </div>
   </div>
-</a>
+</div>
