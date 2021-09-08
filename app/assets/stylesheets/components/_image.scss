@@ -10,12 +10,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  height: 200px;
-  width: 200px;
+  height: 160px;
+  width: 160px;
 }
 
 
-.floating { 
+.floating {
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -25,7 +25,7 @@
 @keyframes floating {
   0% { transform: translate(0,  0px); }
   50%  { transform: translate(0, 8px); }
-  100%   { transform: translate(0, -0px); }   
+  100%   { transform: translate(0, -0px); }
 }
 
 #bt-pos {
@@ -67,4 +67,3 @@
 .border-parent:hover #bl-pos {
   top: 0%;
 }
-
