@@ -21,6 +21,13 @@ h1, h2 {
   font-family: 'Lobster', cursive;
 }
 
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 
 em, .em-text {
   font-family: 'Kanit', sans-serif;
