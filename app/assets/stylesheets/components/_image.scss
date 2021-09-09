@@ -1,8 +1,8 @@
-#main-profile-img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
-  height: 60vh;
+.main-profile-img {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: 50% !important;
+  height: 60vh !important;
   // width: 30vw;
 }
 
@@ -55,9 +55,10 @@
 }
 
 #bt-pos {
-  top: 0%;
+  top: -1px;
   right: -20%;
   transition: right 0.5s;
+  border-top: 1px solid #343a40;
 }
 
 .border-parent:hover #bt-pos {
@@ -66,8 +67,9 @@
 
 #br-pos {
   top: -10%;
-  right: 0%;
+  right: -1px;
   transition: top 0.5s;
+  border-right: 1px solid #343a40;
 }
 
 .border-parent:hover #br-pos {
@@ -75,9 +77,10 @@
 }
 
 #bb-pos {
-  bottom: 0%;
+  bottom: -1px;
   left: -20%;
   transition: left 0.5s;
+  border-bottom: 1px solid #343a40;
 }
 
 .border-parent:hover #bb-pos {
@@ -86,8 +89,9 @@
 
 #bl-pos {
   top: 10%;
-  left: 0%;
+  left: -1px;
   transition: top 0.5s;
+  border-left: 1px solid #343a40;
 }
 
 .border-parent:hover #bl-pos {

@@ -16,22 +16,19 @@
             <p>They called me <em>ALLEN</em>!</p>
           </div>
         </div>
-        <div class="col-10 col-md-4 d-flex my-0 mx-auto p-0 position-relative">
+        <div class="col-10 col-md-4 d-flex my-0 mx-auto p-0">
           <!-- Middle Pic -->
           <div class="position-relative mx-auto" style="width: inherit; z-index: -1;">
-            <div id="main-profile-img" style="background-image:url(<%= image_path('profile_image_01.jpg')%>);"></div>
-            <div id="bt-pos" class="position-absolute w-100 border-dark border-top"></div>
-            <div id="br-pos" class="position-absolute h-100 border-dark border-right"></div>
-            <div id="bb-pos" class="position-absolute w-100 border-dark border-bottom"></div>
-            <div id="bl-pos" class="position-absolute h-100 border-dark border-left"></div>
-          </div>
-          <div class="d-none">
-            <!-- Right Pic -->
-            <div class="square-banner-img border border-dark position-absolute floating" style="background-image:url(<%= image_path('profile_image_02.jpg')%>); top:5%; right:-20%;"></div>
-            <!-- Left Pic -->
-            <div class="position-absolute floating text-center" style="top:50%; left:-40%;">
-              <div class="square-banner-img border border-dark" style="background-image:url(<%= image_path('cat_image_01.jpg')%>);"></div>
-              <p>THESE ARE MY CATS</p>
+            <div id="bt-pos" class="position-absolute w-100"></div>
+            <div id="br-pos" class="position-absolute h-100"></div>
+            <div id="bb-pos" class="position-absolute w-100"></div>
+            <div id="bl-pos" class="position-absolute h-100"></div>
+            <div>
+              <% img_srcs = [] %>
+              <% img_srcs << image_path('profile_image_01.jpg') %>
+              <% img_srcs << image_path('profile_image_02.jpg') %>
+              <% img_srcs << image_path('profile_image_03.jpg') %>
+              <%= render('shared/image-carousel', id: 'ProfileImage', img_srcs: img_srcs) %>
             </div>
           </div>
         </div>
