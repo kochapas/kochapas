@@ -7,7 +7,7 @@
 
 <h2> About Me</h2>
 
-- 🔭 I’m currently working on [BarcSnap](https://www.barcsnap.com)
+- 🔭 I’m currently working on [My own portfolio website](https://www.kochapas.me/)
 
 - 📫 How to reach me **kochapas@outlook.com**
 
