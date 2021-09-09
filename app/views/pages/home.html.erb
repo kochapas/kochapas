@@ -1,7 +1,8 @@
 <div class="container overflow-hidden">
   <%= render('pages/banner') %>
   <div style="height: 8vh"></div>
-  <%= render('pages/profile-card') %>
-  <%= render('pages/hobby-card') %>
+  <% pages = [] %>
+  <% pages << render('pages/profile-card') %>
+  <% pages << render('pages/hobby-card') %>
   <div style="height: 8vh"></div>
 </div>
