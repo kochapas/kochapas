@@ -1,11 +1,11 @@
 <div id="carousel<%= id %>Fade" class="carousel slide carousel-fade" data-ride="carousel" data-touch="true" data-interval="3000">
   <div class="carousel-inner">
-    <div class="carousel-item active main-profile-img" style="background: url(<%= img_srcs[0] %>);">
+    <div class="carousel-item active main-profile-img img-fit-center" style="background: url(<%= img_srcs[0] %>);">
     </div>
     <% if img_srcs.length > 1 %>
       <% (1..img_srcs.length - 1).each do |i| %>
         <div class="carousel-item">
-          <div class="main-profile-img" style="background: url(<%= img_srcs[i] %>);"></div>
+          <div class="main-profile-img img-fit-center" style="background: url(<%= img_srcs[i] %>);"></div>
         </div>
       <% end %>
     <% end %>

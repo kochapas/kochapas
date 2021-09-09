@@ -8,9 +8,7 @@
     <%= render('shared/page-carousel', id: 'About', pages: pages) %>
   </div>
   <div id="projects" class="page-card">
-    <% Project.all.order(created_at: :desc).each do |project| %>
-      <%= render('pages/project-card', project: project) %>
-    <% end %>
+    <%= render('pages/projects-page') %>
   </div>
   <div style="height: 8vh"></div>
 </div>

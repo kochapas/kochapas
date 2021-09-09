@@ -1,12 +1,24 @@
 <div class="p-3 mb-3 bg-light border border-secondary d-flex flex-column justify-content-between overflow-auto">
   <div>
-    <em><%= project.name %></em>
-    <p><%= project.description %></p>
-    <p><%= project.team_size %></p>
-    <p><%= project.primary_role %></p>
-    <p><%= project.secondary_role %></p>
-    <p><%= project.project_link %></p>
-    <p><%= project.repository_link %></p>
-    <p><%= project.youtube_link %></p>
+    <div class="d-flex align-items-center">
+      <a href="<%= project.project_link %>" class="h3 text-dark"><em><%= project.name %></em></a>
+      <a href="<%= project.project_link %>" target="_blank" class="text-dark h4"><i class="fas fa-link mx-2"></i></a>
+      <a href="<%= project.repository_link %>" target="_blank" class="text-dark h4"><i class="fab fa-github-square"></i></a>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <%= image_tag(project.img_link, class: 'w-100 h-100 shadow') if project.img_link %>
+      </div>
+      <div class="col-12 col-md-6">
+        <p class="mb-2"><i class="fas fa-users mr-1 mt-3"></i>Members: <strong><%= project.team_size %></strong></p>
+        <p class="mb-2"><i class="fas fa-user-tie mr-1"></i> Primary Role: <strong><%= project.primary_role %></strong></p>
+        <p class="mb-2"><i class="fas fa-user mr-1"></i> Secondary Role: <strong><%= project.secondary_role %></strong></p>
+        <% project.description&.split('•').each do |line| %>
+          <% next if line.length.zero?  %>
+          <li><%= line.strip %></li>
+        <% end %>
+        <p class="mb-2"><%= project.youtube_link %></p>
+      </div>
+    </div>
   </div>
 </div>
