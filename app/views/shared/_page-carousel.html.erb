@@ -1,4 +1,4 @@
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carousel<%= id %>Controls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="d-block w-100">
@@ -6,7 +6,7 @@
       </div>
     </div>
     <% if pages.length > 1 %>
-      <% [1..pages.length - 1].times do |i| %>
+      <% (1..pages.length - 1).each do |i| %>
         <div class="carousel-item">
           <div class="d-block w-100">
             <%= pages[i] %>
@@ -15,12 +15,12 @@
       <% end %>
     <% end %>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <a class="carousel-control-prev carousel-chevron" href="#carousel<%= id %>Controls" role="button" data-slide="prev">
+    <i class="fas fa-chevron-left text-dark floating-left h2"></i>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <a class="carousel-control-next carousel-chevron" href="#carousel<%= id %>Controls" role="button" data-slide="next">
+    <i class="fas fa-chevron-right text-dark floating-right h2"></i>
     <span class="sr-only">Next</span>
   </a>
 </div>

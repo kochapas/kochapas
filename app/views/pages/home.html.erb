@@ -1,8 +1,11 @@
 <div class="container overflow-hidden">
   <%= render('pages/banner') %>
   <div style="height: 8vh"></div>
-  <% pages = [] %>
-  <% pages << render('pages/profile-card') %>
-  <% pages << render('pages/hobby-card') %>
+  <div id="about" class="page-card">
+    <% pages = [] %>
+    <% pages << render('pages/profile-card') %>
+    <% pages << render('pages/hobby-card') %>
+    <%= render('shared/page-carousel', id: 'About', pages: pages) %>
+  </div>
   <div style="height: 8vh"></div>
 </div>

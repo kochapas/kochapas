@@ -23,9 +23,35 @@
 }
 
 @keyframes floating {
-  0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 8px); }
-  100%   { transform: translate(0, -0px); }
+  0% { transform: translate(0px,  0px); }
+  50%  { transform: translate(0px, 8px); }
+  100%   { transform: translate(0px, 0px); }
+}
+
+.floating-left {
+  animation-name: floating-left;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating-left {
+  0% { transform: translate(-5px,  0px); }
+  50%  { transform: translate(-13px, 0px); }
+  100%   { transform: translate(-5px, 0px); }
+}
+
+.floating-right {
+  animation-name: floating-right;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating-right {
+  0% { transform: translate(5px,  0px); }
+  50%  { transform: translate(13px, 0px); }
+  100%   { transform: translate(5px, 0px); }
 }
 
 #bt-pos {
