@@ -4,6 +4,7 @@
   </div>
   <div style="height: 8vh"></div>
   <div id="about" class="page-card scroll-fade">
+    <%= render('shared/text-headline', headline: 'About Me') %>
     <% pages = [] %>
     <% pages << render('pages/profile-card') %>
     <% pages << render('pages/hobby-card') %>

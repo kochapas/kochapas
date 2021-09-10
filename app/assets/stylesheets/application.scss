@@ -17,22 +17,33 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Lobster', cursive;
 }
 
 a {
   text-decoration: none;
+
   &:hover {
     text-decoration: none;
   }
 }
 
 
-em, .em-text {
+em,
+.em-text {
   font-family: 'Kanit', sans-serif;
 }
 
-.transition-color {
+.transition-bg-color {
   transition: background-color 0.5s;
+}
+
+.transition-text-color {
+  transition: color 0.5s;
+}
+
+.pointer-cursor {
+  cursor: pointer;
 }
