@@ -2,13 +2,15 @@ const scrollfade = () => {
   $(document).on("scroll", () =>
     {
       const pageTop = $(document).scrollTop();
-      const pageBottom = pageTop + $(window).height() - 50;
-      console.log(`Top:${pageTop} / Bottom:${pageBottom}`);
+      const pageBottom = pageTop + $(window).height();
       var tags = $(".scroll-fade");
       for (var i = 0; i < tags.length; i++)
       {
         let tag = tags[i];
-        if ($(tag).position().top < pageBottom) {
+        if ($(tag).position().top + $(tag).height() - 80 < pageTop) {
+          $(tag).removeClass("active");
+        }
+        else if ($(tag).position().top + 80 < pageBottom) {
           $(tag).addClass("active");
         }
         else {
