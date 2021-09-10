@@ -1,13 +1,15 @@
 <div class="container overflow-hidden">
-  <%= render('pages/banner') %>
+  <div class="scroll-fade active">
+    <%= render('pages/banner') %>
+  </div>
   <div style="height: 8vh"></div>
-  <div id="about" class="page-card">
+  <div id="about" class="page-card scroll-fade">
     <% pages = [] %>
     <% pages << render('pages/profile-card') %>
     <% pages << render('pages/hobby-card') %>
     <%= render('shared/page-carousel', id: 'About', pages: pages) %>
   </div>
-  <div id="projects" class="page-card">
+  <div id="projects" class="page-card scroll-fade">
     <%= render('pages/projects-page') %>
   </div>
   <div style="height: 8vh"></div>
