@@ -11,7 +11,7 @@ Project.destroy_all
 
 puts "🎉 Start seeding the project..."
 chef_project = Project.new()
-chef_project.name = "ThanyouChef!"
+chef_project.name = "ThankyouChef!"
 chef_project.description = "•The website to hire a personal chef to cook at your home.•Semi-final project during Le Wagon course."
 chef_project.team_size = 3
 chef_project.primary_role = "Lead Frontend"
