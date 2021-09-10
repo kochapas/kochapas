@@ -15,7 +15,9 @@ ActiveStorage.start()
 // Custom
 import 'bootstrap';
 import { scrollfade } from "../plugins/scrollfade"
+import { clickToScroll } from "../plugins/clicktoscroll"
 
 document.addEventListener('turbolinks:load', () => {
   scrollfade();
+  clickToScroll();
 });
