@@ -1,0 +1,11 @@
+.btn-regular {
+  background-color: #f8f9fa;
+  color: #343a40;
+  border: solid 1px #343a40;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+}
