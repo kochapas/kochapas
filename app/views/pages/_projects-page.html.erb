@@ -1,4 +1,4 @@
-<h2>Projects</h2>
+<%= render('shared/text-headline', headline: 'Projects') %>
 <% Project.all.order(created_at: :desc).each do |project| %>
   <%= render('pages/project-card', project: project) %>
 <% end %>
