@@ -3,6 +3,9 @@
   overflow: hidden;
   transition: max-width 0.5s;
 }
+.expand-char-parent{
+  margin-top: 4vh;
+}
 
 .expand-char-parent:hover .expand-char {
   max-width: 16px;
