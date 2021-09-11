@@ -1,10 +1,15 @@
 const clickToScroll = () => {
   const btnTop = document.querySelector('#btn-top');
+  const chvTop = document.querySelector('#chv-top');
   const btnAbout = document.querySelector('#btn-about');
   const chvAbout = document.querySelector('#chv-about');
   const btnProjects = document.querySelector('#btn-projects');
 
   btnTop.addEventListener('click',  event => {
+    // const page = document.querySelector('#top');
+    window.scrollTo(0, 0);
+  });
+  chvTop.addEventListener('click',  event => {
     // const page = document.querySelector('#top');
     window.scrollTo(0, 0);
   });
