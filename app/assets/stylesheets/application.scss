@@ -47,3 +47,15 @@ em,
 .pointer-cursor {
   cursor: pointer;
 }
+
+.h-fit {
+  height: fit-content !important;
+}
+
+.w-inherit {
+  width: inherit !important;
+}
+
+.z-neg-1 {
+  z-index: -1;
+}
