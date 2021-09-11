@@ -13,7 +13,7 @@ puts "🎉 Start seeding the project..."
 
 wl_project = Project.new
 wl_project.name = "Movies Watch List"
-wl_project.description = "• Create a watch list for movies with personal review for individual movie.• Project to test out my web design skill during Le Wagon bootcamp."
+wl_project.description = "• User can create a watch list for movies with personal review for individual movie.• Project to test out my full-stack and web design skills during Le Wagon bootcamp."
 wl_project.team_size = 1
 wl_project.primary_role = "Full-Stack Developer"
 wl_project.secondary_role = ""
@@ -24,7 +24,7 @@ wl_project.save
 
 chatbot_project = Project.new
 chatbot_project.name = "Line Chatbot"
-chatbot_project.description = "• Line chatbot that can interact with the user.• Inspired by 'Mochi' my cat who likes to follows me around the house as if he's my assistant."
+chatbot_project.description = "• Line chatbot that can interact with the user.• Inspired by 'Mochi', my cat who likes to follows me around the house as if he's my personal assistant."
 chatbot_project.team_size = 1
 chatbot_project.primary_role = "Developer"
 chatbot_project.secondary_role = ""
@@ -35,7 +35,7 @@ chatbot_project.save
 
 chef_project = Project.new
 chef_project.name = "ThankyouChef!"
-chef_project.description = "• The website to hire a personal chef to cook at your home.• Semi-final project during Le Wagon course."
+chef_project.description = "• The website to hire a personal chef to cook at your home.• Semi-final project during Le Wagon bootcamp."
 chef_project.team_size = 3
 chef_project.primary_role = "Lead Frontend"
 chef_project.secondary_role = "Full-Stack Developer"
