@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Kochapas</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Meta data for SEO -->
+    <% site_name = 'Kochapas' %>
+    <% title = "#{site_name} - Full-Stack Developer" %>
+    <% description = 'Online portfolio of Kochapas Santibut, Full stack developer who lives in Tokyo.' %>
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>">
+    <meta name="keywords" content="Kochapas, Santibut">
+    <meta name="author" content="Kochapas Santibut">
+    <!-- Facebook -->
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:site_name" content="<%= site_name %>">
+    <meta property="og:description" content="<%= description %>">
+    <meta property="og:image" content="<%= image_url("facebook-card.jpg") %>">
+    <meta property="og:url" content="https://www.kochapas.me">
+    <meta property="og:type" content="portfolio" >
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
