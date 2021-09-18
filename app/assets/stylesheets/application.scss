@@ -17,15 +17,15 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 
   &::-webkit-scrollbar {
-    width: 0.3rem;
+    width: 0.5rem;
   }
 
   &::-webkit-scrollbar-track {
-    background: #fff;
+    background: #f8f9fa;
   }
 
   &::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.1);
+    background: #bbb;
   }
 }
 
