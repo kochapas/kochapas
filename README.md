@@ -5,7 +5,7 @@
 <div size='20px'> Hi! My name is Kochapas. You can call me Allen. I'm a Full Stack Developer!
 </div>
 
-<h2> About Me</h2>
+<h2> About Me</h2> <a href = 'https://www.linkedin.com/in/kochapas'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a> 
 
 - 🔭 I’m currently working on **[My own portfolio website](https://www.kochapas.me/)**
 
@@ -27,15 +27,4 @@
 <a href= https://github.com/kochapas?tab=repositories&q=&type=&language=postgresql&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/postgresql.svg'> </a>
 <a href= https://github.com/kochapas?tab=repositories&q=&type=&language=sqlite&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/sqlite.svg'> </a>
 
-
-<h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="100px"> </h2>
-<a href = 'https://www.linkedin.com/in/kochapas'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a> 
-
-
-
-<h2> My GitHub Stats </h2>
-
- ![GitHub stats](https://github-readme-stats.vercel.app/api?username=kochapas&show_icons=true&theme=github_dark)
- 
  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kochapas&layout=compact&theme=github_dark)](https://github.com/Nomioooob/github-readme-stats)
-
